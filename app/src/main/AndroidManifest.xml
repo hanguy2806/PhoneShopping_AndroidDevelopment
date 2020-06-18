@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DataPlanScreen"></activity>
+        <activity android:name=".OutputScreen" />
+        <activity android:name=".CustomerInfo" />
+        <activity android:name=".BrandScreen" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
